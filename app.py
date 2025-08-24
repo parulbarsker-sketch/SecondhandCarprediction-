@@ -5,7 +5,7 @@ import numpy as np
 # ---------------------------
 # Load Trained Model
 # ---------------------------
-model = pickle.load(open("model (1).pkl", "rb"))  # apna model file ka naam
+model = pickle.load(open("model.pkl", "rb"))  # apna model file ka naam
 
 st.title("🚗 Car Price Prediction App")
 st.write("Is app se aap apni gaadi ki *selling price* predict kar sakte ho.")
